@@ -3,6 +3,8 @@
 ##### Currently, this is a code base with minimum condition requirements. CS guys could help if something more sophisticated is needed. ;)
 The script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 6 to 12 min and sends you an email alert if a new room is **available**.
 
+Version: 07.2021
+
 ## Usage
 
 Please, navigate to the **WOKO_alert** folder
