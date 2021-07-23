@@ -7,6 +7,12 @@ Version: 07.2021
 
 ## Usage
 
+### 0. Clone this repository 
+Open your favourite command line (Terminal etc) and run this line to clone this repository on your machine:
+```
+git clone git@github.com:KalinNonchev/WOKO_alert.git
+```
+
 Please, navigate to the **WOKO_alert** folder
 
 ### 1. Install dependencies 
