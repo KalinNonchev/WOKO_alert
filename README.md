@@ -30,7 +30,8 @@ keyword: "Zürich" # Choose between Zürich and Winterthur
 
 You can use the same **receiver_email** and **sender_email**.  
 I recommend creating a second special email (sender_email) for the purpose of this app. \
-You **have** to use gmail and you **have** to turn **Less secure app access** feature **on**. Read more [here](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-on-for-your-account).
+You **have** to use gmail and you **have** to turn **Less secure app access** feature **on**. Read more [here](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-on-for-your-account). \
+**The script doesn't store and share your privacy data!**
 
 ### 3. Run
 
