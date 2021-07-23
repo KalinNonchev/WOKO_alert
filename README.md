@@ -1,14 +1,14 @@
 # WOKO_alert
 ##### Any feedback or contribution would be appreciated. Don't forget to give a STAR :star2:
 ##### Currently, this is a code base with minimum condition requirements. CS guys could help if something more sophisticated is needed. ;)
-The script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 6 to 12 min and sends you an email alert if a new room is **available**.
+It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 6 to 12 min and sends you an email alert if a new room is **available**.
 
 Version: 07.2021
 
 ## Usage
 
 ### 0. Clone this repository 
-Open your favourite command line (Terminal etc) and run this line to clone this repository on your machine:
+Open your favourite command line tool (Terminal etc) and run this line to clone the repository on your machine:
 ```
 git clone git@github.com:KalinNonchev/WOKO_alert.git
 ```
@@ -17,14 +17,14 @@ Please, navigate to the **WOKO_alert** folder
 
 ### 1. Install dependencies 
 
-Open your favourite command line (Terminal etc) and run this line to install the missing dependencies:
+Open your favourite command line tool (Terminal etc) and run this line to install the missing dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-### 2. Fill config file
+### 2. Fill out the config file
 
-Fill the config yaml file
+Open and fill out the config.yaml file.
 
 ```python
 content: "New WOKO room!"
@@ -41,7 +41,7 @@ You **have** to use gmail and you **have** to turn **Less secure app access** fe
 
 ### 3. Run
 
-Open your favourite command line (Terminal etc) and run the script as: 
+Open your favourite command line tool (Terminal etc) and run the script as: 
 
 ```python
 python3 queryWOKO.py
