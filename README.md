@@ -30,7 +30,7 @@ Open and fill out the config.yaml file.
 content: "New WOKO room!"
 receiver_email: "pass" # email to send to 
 sender_email: "pass" # email to send from @gmail
-password: "pass" # paswword of the sender_email email @gmail
+password: "pass" # password of the sender_email email @gmail
 keyword: "Zürich" # Choose between Zürich and Winterthur
 ```
 

@@ -1,5 +1,5 @@
 content: "New WOKO room!"
 receiver_email: "pass" # email to send to 
 sender_email: "pass" # email to send from 
-password: "pass" # paswword of the sender_email email 
+password: "pass" # password of the sender_email email 
 keyword: "Zürich" # Choose between Zürich and Winterthur
