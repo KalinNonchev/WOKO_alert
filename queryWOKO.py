@@ -60,10 +60,10 @@ def query_all_website():
 def sleep():
     """
     Sleep time
-    between 6 to 12 minutes
+    between 3 to 6 minutes
     :return:
     """
-    timer = 360 * random.choice([1, 2])
+    timer = 180 * random.choice([1, 2])
     print(f"Sleep for: {timer // 60}min.")
     time.sleep(timer)
 
