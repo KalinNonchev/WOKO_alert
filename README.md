@@ -1,7 +1,7 @@
 # WOKO_alert
 ##### Any feedback or contribution would be appreciated. Don't forget to give a STAR :star2:
 ##### Currently, this is a code base with minimum condition requirements. CS guys could help if something more sophisticated is needed. ;)
-It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 6 to 12 min and sends you an email alert if a new room is **available**.
+It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 3 to 6 min and sends you an email alert if a new room is **available**.
 
 Version: 07.2021
 
@@ -50,7 +50,7 @@ python3 queryWOKO.py
 If everything is fine, you should see something like:
 ```
 Still: 2 rooms...
-Sleep for: 6min.
+Sleep for: 3min.
 ```
-Leave the script running in the background. The script will update itself every 6 to 12 min and if a new room is available, it will notify you by email. Enjoy! \
+Leave the script running in the background. The script will update itself every 3 to 6 min and if a new room is available, it will notify you by email. Enjoy! \
 **Good luck!**
