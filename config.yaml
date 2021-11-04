@@ -3,4 +3,5 @@ receiver_email: "pass" # email to send to
 sender_email: "pass" # email to send from 
 password: "pass" # password of the sender_email email 
 keyword: "Zürich" # Choose between Zürich and Winterthur
+url_woko: "https://www.woko.ch/en/zimmer-in-zuerich" # Choose between Zürich and Winterthur url
 timer: 120 # in s./ interval to update request

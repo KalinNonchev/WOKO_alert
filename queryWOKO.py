@@ -38,7 +38,7 @@ def query_all_website():
     Check the WOKO website for the number of available rooms
     :return: Number of rooms
     """
-    url = "http://www.woko.ch/en/nachmieter-gesucht"
+    url = config["url_woko"]
     html = urlopen(url).read()
     soup = BeautifulSoup(html, features="html.parser")
 
@@ -60,7 +60,6 @@ def query_all_website():
 def sleep():
     """
     Sleep time
-    between 3 to 6 minutes
     :return:
     """
     timer = config["timer"] * random.choice([1, 2])
@@ -79,5 +78,5 @@ while True:
         memory_list = new_memory_list
         sleep()
     else:
-        print(f"Still: {len(new_memory_list) - 3} rooms...")
+        print(f"Still: {len(new_memory_list)} rooms...")
         sleep()
