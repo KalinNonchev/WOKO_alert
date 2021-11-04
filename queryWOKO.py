@@ -63,7 +63,7 @@ def sleep():
     between 3 to 6 minutes
     :return:
     """
-    timer = 180 * random.choice([1, 2])
+    timer = config["timer"] * random.choice([1, 2])
     print(f"Sleep for: {timer // 60}min.")
     time.sleep(timer)
 
