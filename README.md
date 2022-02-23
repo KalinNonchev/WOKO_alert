@@ -1,4 +1,4 @@
-# WOKO_alert
+# WOKO_alert - DEPRECATED
 ##### Any feedback or contribution would be appreciated. Don't forget to give a STAR :star2:
 ##### Currently, this is a code base with minimum condition requirements. CS guys could help if something more sophisticated is needed. ;)
 It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 3 to 6 min and sends you an email alert if a new room is **available**.
