@@ -10,7 +10,7 @@ with open("config.yaml", "r") as opened_file:
     config = yaml.safe_load(opened_file)
 
 
-def send_message(content, receiver_email, sender_email, password):
+def send_message(**kwargs):
     """
     Send email if the number of rooms on WOKO is changed
     :param content:
@@ -19,6 +19,11 @@ def send_message(content, receiver_email, sender_email, password):
     :param password:
     :return:
     """
+    content = kwargs.get('content')
+    receiver_email = kwargs.get('receiver_email')
+    sender_email = kwargs.get('sender_email')
+    password = kwargs.get('password')
+
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
     message = f"Subject: You have a new post\n\n\n{content}.\n\n\nCheers,\nYour team"
