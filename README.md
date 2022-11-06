@@ -32,11 +32,14 @@ receiver_email: "pass" # email to send to
 sender_email: "pass" # email to send from @gmail
 password: "pass" # password of the sender_email email @gmail
 keyword: "Zürich" # Choose between Zürich and Winterthur
+url_woko: "https://www.woko.ch/en/nachmieter-gesucht"
 ```
 
 You can use the same **receiver_email** and **sender_email**.  
 Since May 30: You have to enable 2-step verification and set up app password for this app and set it the config file so that this app is allowed to login, else it will be considered a less secure app and gmail won't allow it to login. See this for more info: https://support.google.com/accounts/answer/6010255, https://support.google.com/accounts/answer/185833?hl=en.
 **The script doesn't store and share your privacy data!**
+
+You can choose the appropriate url_woko depending on the city and whether you want sublets or not. For eg, "https://www.woko.ch/en/nachmieter-gesucht" only contains longterm listings while "https://www.woko.ch/en/zimmer-in-zuerich" contains both.
 
 ### 3. Run
 
