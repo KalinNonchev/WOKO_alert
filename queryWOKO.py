@@ -77,7 +77,7 @@ memory_list = query_all_website()
 while True:
     new_memory_list = query_all_website()
 
-    if memory_list != new_memory_list:
+    if memory_list != new_memory_list or config['test']:
         send_message(**config)
         print("Found!")
         memory_list = new_memory_list
