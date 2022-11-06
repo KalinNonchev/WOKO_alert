@@ -1,9 +1,9 @@
-# WOKO_alert - DEPRECATED!!!
+# WOKO_alert
 ##### Any feedback or contribution would be appreciated. Don't forget to give a STAR :star2:
 ##### Currently, this is a code base with minimum condition requirements. CS guys could help if something more sophisticated is needed. ;)
-It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries every 3 to 6 min and sends you an email alert if a new room is **available**.
+It is crucial to be the first who contacts the room subtenant, because they get 100s emails/day. This script checks the [WOKO](http://www.woko.ch) website for student accommodation in Zurich, Switzerland for new room entries repeatedly once in a specified time interval and sends you an email alert if a new room is **available**.
 
-Version: 07.2021
+Version: 11.2022
 
 ## Usage
 
@@ -35,8 +35,7 @@ keyword: "Zürich" # Choose between Zürich and Winterthur
 ```
 
 You can use the same **receiver_email** and **sender_email**.  
-I recommend creating a second special email (sender_email) for the purpose of this app. \
-You **have** to use gmail and you **have** to turn **Less secure app access** feature **on**. Read more [here](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-on-for-your-account). \
+Since May 30: You have to enable 2-step verification and set up app password for this app and set it the config file so that this app is allowed to login, else it will be considered a less secure app and gmail won't allow it to login. See this for more info: https://support.google.com/accounts/answer/6010255, https://support.google.com/accounts/answer/185833?hl=en.
 **The script doesn't store and share your privacy data!**
 
 ### 3. Run
