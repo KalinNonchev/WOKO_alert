@@ -28,11 +28,13 @@ Open and fill out the config.yaml file.
 
 ```python
 content: "New WOKO room!"
-receiver_email: "pass" # email to send to 
-sender_email: "pass" # email to send from @gmail
-password: "pass" # password of the sender_email email @gmail
+receiver_email: "email@gmail.com" # email to send to 
+sender_email: "email@gmail.com" # email to send from 
+password: "app_password" # password of the sender_email email 
 keyword: "Zürich" # Choose between Zürich and Winterthur
 url_woko: "https://www.woko.ch/en/nachmieter-gesucht"
+timer: 120 # in s./ interval to update request
+test_email: True # once you test it to see if you are getting the emails, make is False!
 ```
 
 You can use the same **receiver_email** and **sender_email**.  
