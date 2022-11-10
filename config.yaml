@@ -5,4 +5,4 @@ password: "app_password" # password of the sender_email email
 keyword: "Zürich" # Choose between Zürich and Winterthur
 url_woko: "https://www.woko.ch/en/nachmieter-gesucht"
 timer: 120 # in s./ interval to update request
-test: True
+test_email: True
